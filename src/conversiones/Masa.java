@@ -24,7 +24,7 @@ public class Masa {
 		// Mostrar el cuadro de diálogo para seleccionar una opción de conversión de masa
 		Object opcionElegida = JOptionPane.showInputDialog(
 			null,
-			"Seleccione una opción de conversión",
+			"Selecciona un tipo de conversión",
 			"Menú",
 			JOptionPane.QUESTION_MESSAGE,
 			icon,
@@ -45,8 +45,8 @@ public class Masa {
 			// Solicitar el valor de peso a convertir
 			Object pesoAConvertirObject = JOptionPane.showInputDialog(
 				null,
-				"Ingresa el peso que deseas convertir\nOpción elegida: " + opcionPesoElegida,
-				"Menú",
+				"Ingresa el peso que deseas convertir de: " + opcionPesoElegida,
+				"Conversión de Masa",
 				JOptionPane.QUESTION_MESSAGE,
 				icon,
 				null,
@@ -92,8 +92,8 @@ public class Masa {
 			
 		JOptionPane.showMessageDialog(
 			null,
-			"El valor de la conversión " + tipoConversion + " es: " + resultado,
-			"Título del mensaje",
+			"El resultado de la conversión " + tipoConversion + " es: " + resultado,
+			"Conversión de Masa",
 			JOptionPane.INFORMATION_MESSAGE,
 			icon
 		);
