@@ -24,7 +24,7 @@ public class Longitud {
 		// Mostrar el cuadro de diálogo para seleccionar una opción de conversión de longitud
 		Object opcionElegida = JOptionPane.showInputDialog(
 				null,
-				"Seleccione una opción de conversión",
+				"Selecciona un tipo de conversión",
 				"Menu",
 				JOptionPane.QUESTION_MESSAGE,
 				icon,
