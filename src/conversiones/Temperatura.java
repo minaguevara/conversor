@@ -23,7 +23,7 @@ public class Temperatura {
 		// Mostrar el cuadro de diálogo para seleccionar una opción de conversión de temperatura
 		Object opcionElegida = JOptionPane.showInputDialog(
 			null,
-			"Seleccione una opción de conversión",
+			"Seleccione un tipo de conversión",
 			"Menu",
 			JOptionPane.QUESTION_MESSAGE,
 			icon,
@@ -45,8 +45,8 @@ public class Temperatura {
 			// Solicitar el valor de grados a convertir
 			Object gradosAConvertirObject = JOptionPane.showInputDialog(
 				null,
-				"Ingresa los grados que deseas convertir \nOpción elegida: " + opcionTemperaturaElegida,
-				"Título del diálogo",
+				"Ingresa los grados que deseas convertir de: " + opcionTemperaturaElegida,
+				"Conversión de Temperatura",
 				JOptionPane.QUESTION_MESSAGE,
 				icon,
 				null,
@@ -89,8 +89,8 @@ public class Temperatura {
 			
 		JOptionPane.showMessageDialog(
 			null,
-			"El valor de la conversión " + tipoConversion + " es: " + resultado,
-			"Título del mensaje",
+			"El resultado de la conversión " + tipoConversion + " es: " + resultado,
+			"Conversión de Temperatura",
 			JOptionPane.INFORMATION_MESSAGE,
 			icon
 		);
