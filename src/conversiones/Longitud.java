@@ -45,8 +45,8 @@ public class Longitud {
 			// Solicitar el valor de longitud a convertir
 			Object longitudAConvertirObject = JOptionPane.showInputDialog(
 				null,
-				"Ingresa la longitud que deseas convertir\nOpción escogida: " + opcionLongitudElegida,
-				"Título del diálogo",
+				"Ingresa la longitud que deseas convertir de: " + opcionLongitudElegida,
+				"Conversión de Temperatura",
 				JOptionPane.QUESTION_MESSAGE,
 				icon,
 				null,
@@ -93,8 +93,8 @@ public class Longitud {
 			
 		JOptionPane.showMessageDialog(
 				null,
-				"El valor de la conversión " + tipoConversion + " es: " + resultado,
-				"Título del mensaje",
+				"El resultado de la conversión " + tipoConversion + " es: " + resultado,
+				"Conversión de Longitud",
 				JOptionPane.INFORMATION_MESSAGE,
 				icon
 			);
