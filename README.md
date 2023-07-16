@@ -2,7 +2,9 @@
 
 Este proyecto tiene como objetivo desarrollar un conversor de divisas y unidades utilizando el lenguaje Java. El programa permitirá a los usuarios convertir entre diferentes monedas y unidades de medida de manera sencilla. Además de las características básicas de conversión de divisas, se ha implementado la conversión de longitud, temperatura y masa como un desafío extra.
 
-<p align="center">![](https://github.com/minaguevara/conversor/blob/main/conversor.gif)</p>
+<p align="center">
+  <img src="https://github.com/minaguevara/conversor/blob/main/conversor.gif" alt="GIF" />
+</p>
 
 ## Características
 
